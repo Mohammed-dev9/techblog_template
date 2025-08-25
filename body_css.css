@@ -82,7 +82,7 @@ p,h3,h5{
     font-weight: 800;
     display: flex;
     margin: 10px;
-    padding-left: 35px;
+    padding-left: 40px;
     color: rgb(21, 19, 16);
     font-size: 24px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -346,11 +346,16 @@ footer{
          display: flex;
          flex-direction: column;
     }
+
     .definition{
         margin: 0;
+        text-align: center;
     }
     .exp{
         margin-left: 40px;
+    }
+    .showcase span{
+        text-align: center;
     }
 
 }
@@ -367,8 +372,14 @@ footer{
          flex-direction: column;
     }
 
+    .showcase span{
+        text-align: center;
+    }
+
     .definition{
-        margin: 0;
+         text-align: center;
+         margin: 0;  
+
     }
 
     .java pre{
